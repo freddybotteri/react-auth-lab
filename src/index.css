@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.loader{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+text-align: center;
+   top: 35%;
+}
+.error{
+	color: #D8000C;
+  background-color: #FFD2D2;
+}
+
+.success{
+	color: #4F8A10;
+  background-color: #DFF2BF;
+}
+
+.header-content{
+	width: 100%;
+  text-align: center;
+  background-color: #DFF2BF;
+}
+.header-title-text{
+	/*float: right;*/
+	display:inline-block;
+	margin: 16px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-left {
+  float: left;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+/** NonToken **/
+
+.nonToken{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/** List **/
+
+.container{
+	margin-left:10px;
+	margin-right: 10px;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  grid-template-columns: auto  auto;
+  grid-gap: 20px;
+}
+
+.grid-item {
+	color: #3a3a3a;
+	font-size: 20px;
+	border-radius: 6px;
+}
+.grid-item-link{
+	top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 20px;
+    text-decoration: none;
+}
+
+
+.preview-title{
+	padding:10px;
+}
+
+
+.login-container {
+    display:block;  
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 102, 204); 
+    background-color: rgba(0, 157, 189, 1);
+}
+
+
+input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=password]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit],input[type=button]  {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     display: block;
+    margin-top:6px;
+}
+
+input[type=submit]:hover,input[type=button]:hover {
+    background-color: #45a049;
+}
+input[type=submit]:disabled,input[type=button]:disabled {
+	background-color: #cccccc;
+	color: #666666;
+}
+.login-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+
+/* The Close Button */
+.button-register {
+    color: #aaa;
+    font-size: 15px;
+    font-weight: bold;
+    align-content: center;
+
+}
+
+.button-register:hover,
+.button-register:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
